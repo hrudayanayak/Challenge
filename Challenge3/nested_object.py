@@ -1,8 +1,3 @@
-# getkey value should be passed and it will retur
-# if user passes getkey = 'a', value will be {'b': {'c': 'd'}}
-# if user passes getkey = 'b', value will be {'c': 'd'}
-# if user passes getkey = 'c', value will be d
-
 def get_all_values(nested_dictionary,parameter):
     for key, value in nested_dictionary.items():
         if type(value) is dict:
